@@ -1,0 +1,52 @@
+/* Write your CSS code here */
+:root {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: roboto;
+}
+
+.nav-bar-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 5rem;
+}
+
+.Nxtwave-logo {
+  height: 5rem;
+  width: 10rem;
+  object-fit: contain;
+  object-position: center;
+}
+
+.link_cont {
+  padding-inline-start: 0;
+  display: flex;
+  flex-basis: 20%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+  color: #475569;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.Logout-btn {
+  background-color: #0967d2;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  color: white;
+  border: none;
+  outline: none;
+}
